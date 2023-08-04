@@ -13,7 +13,7 @@ import * as d3Axis from 'd3-axis';
 })
 export class LineChartComponent implements OnInit {
   title = 'Line Chart';
-  @Input() max: number;
+  // @Input() max: number;
   data: any[] = [
     { date: new Date('2010-01-01'), value: 80 },
     { date: new Date('2010-01-04'), value: 90 },
